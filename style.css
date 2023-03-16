@@ -1,0 +1,784 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 46px;
+}
+
+.header .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 36px;
+}
+
+.header .list .listItem .lt {
+    color: black;
+}
+
+.header .libu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    color: white;
+}
+
+.header .libu .link {
+    color: grey;
+}
+
+
+.header .libu .button {
+    padding: 10px 20px;
+    background-color: green;
+    border-radius: 100px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.App .leftSide {
+    width: 50%;
+}
+
+
+.App .leftSide .name {
+    width: 70%;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 64px;
+}
+
+.App .leftSide .text {
+    width: 55%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 10px 0 31px 0;
+}
+
+.App .leftSide .bunk {
+    column-gap: 40px;
+    display: flex;
+    align-items: center;
+}
+
+
+.App .leftSide .bunk .button {
+    padding: 10px 20px;
+    background-color: green;
+    border-radius: 100px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.App .leftSide .bunk .link {
+    background-color: rgb(171, 245, 246);
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+
+.App .rightSide {
+    width: 50%;
+}
+
+.App .rightSide .log {
+    width: 100%;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 41px;
+}
+
+.logos .list {
+    display: flex;
+    align-items: center;
+    column-gap: 65px;
+}
+
+.Az {
+    display: flex;
+    flex-direction: column;
+    padding: 110px 50px;
+}
+
+.Az .top .link {
+    color: #00780C;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.Az .top .name {
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    width: 50%;
+    margin-bottom: 57px;
+}
+
+.Az .lr {
+    display: flex;
+    justify-content: center;
+}
+
+.Az .lr .leftSide {
+    width: 50%;
+}
+
+.Az .lr .leftSide .text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.18px;
+    width: 60%;
+    margin-top: 16px;
+}
+
+.Az .lr .rightSide {
+    width: 50%;
+}
+
+.Az .lr .rightSide .text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.18px;
+    width: 60%;
+    margin-top: 16px;
+}
+
+.Az .lr .rightSide .text1 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.18px;
+    width: 60%;
+    margin-top: 46px;
+}
+
+.One {
+    display: flex;
+    justify-content: center;
+    padding: 99px 40px;
+}
+
+.One .leftSide {
+    width: 50%;
+}
+
+.One .leftSide .link {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    color: #00780C;
+}
+
+.One .leftSide .name {
+    width: 70%;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.One .leftSide .text1 {
+    color: #423F35;
+    width: 70%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 42px 0 29px 0;
+}
+
+.One .leftSide .lp {
+    margin-bottom: 44px;
+}
+
+.One .leftSide .lp .link {
+    display: flex;
+    align-items: center;
+}
+
+.One .leftSide .lp .link .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.18px;
+    margin-bottom: 8px;
+}
+
+.One .leftSide .lk .text {
+    width: 16%;
+    background: #F8F8F5;
+    border-radius: 100px;
+    padding: 10px 20px;
+    color: #505038;
+}
+
+.One .rightSide .logo {
+    width: 100%;
+}
+
+.One1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 99px 40px;
+    column-gap: 50px;
+}
+
+.One1 .leftSide {
+    width: 50%;
+}
+
+.One1 .leftSide .link {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    color: #00780C;
+}
+
+.One1 .leftSide .name {
+    width: 70%;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.One1 .leftSide .text1 {
+    color: #423F35;
+    width: 70%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 42px 0 29px 0;
+}
+
+.One1 .leftSide .lp {
+    margin-bottom: 44px;
+}
+
+.One1 .leftSide .lp .link {
+    display: flex;
+    align-items: center;
+}
+
+.One1 .leftSide .lp .link .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.18px;
+    margin-bottom: 8px;
+}
+
+.One1 .leftSide .lk .text {
+    width: 16%;
+    background: #F8F8F5;
+    border-radius: 100px;
+    padding: 10px 20px;
+    color: #505038;
+}
+
+.One1 .rightSide .logo {
+    width: 100%;
+}
+
+.trans {
+    display: flex;
+    justify-content: center;
+    padding: 80px 40px;
+}
+
+.trans .leftSide .imp .link {
+    display: flex;
+    align-items: center;
+}
+
+.trans .leftSide .imp .link .text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.18px;
+    color: #00780C;
+}
+
+.trans .leftSide .name {
+    width: 60%;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.trans .leftSide .divs .text1 {
+    width: 60%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.18px;
+    margin: 42px 0 29px 0;
+}
+
+.trans .leftSide .divs .list .listItem {
+    display: flex;
+    align-items: center;
+}
+
+.trans .leftSide .divs .list .listItem .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 8px;
+}
+
+.trans .leftSide .pl .text {
+    margin-top: 44px;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    background-color: #F8F8F5;
+    width: 15%;
+    border-radius: 100px;
+}
+
+.black {
+    background-color: #191610;
+    color: white;
+    padding: 13% 4%;
+}
+
+.black .l .link .text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.18px;
+    color: #00780C;
+}
+
+.black .l .name {
+    width: 27%;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 40px;
+}
+
+.black .text1 {
+    width: 30%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.18px;
+    margin: 42px 0 29px 0;
+}
+
+.black .list .listItem {
+    display: flex;
+    margin-top: 8px;
+}
+
+.black .list .listItem .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.black .button {
+    padding: 10px 20px;
+    background-color: #00780C;
+    border-radius: 100px;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.position {
+    display: flex;
+    padding: 12% 4%;
+
+}
+
+.position .leftSide {
+    width: 50%;
+}
+
+.position .leftSide .minediv .link {
+    color: #00780C;
+}
+
+.position .leftSide .minediv .link .tex {
+    width: 11%;
+}
+
+
+.position .leftSide .minediv .name {
+    width: 65%;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.position .leftSide .text {
+    width: 60%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 42px 0;
+}
+
+.position .leftSide .button {
+    border-radius: 88px;
+    padding: 10px 20px;
+    color: #505038;
+    border: none;
+    cursor: pointer;
+}
+
+.position .leftSide .button .text1 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.position .rightSide {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 50%;
+    color: #0E6400;
+}
+
+.position .rightSide .left {
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    left: 0;
+}
+
+.position .rightSide .left .top {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EFFDD4;
+    padding: 23px 41px 52px 32px;
+    border-radius: 15px;
+}
+
+.position .rightSide .left .top .name {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.position .rightSide .left .top .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.position .rightSide .left .botton {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EFFDD4;
+    padding: 23px 41px 52px 32px;
+    border-radius: 15px;
+    margin-top: 16px;
+}
+
+.position .rightSide .left .botton .name {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.position .rightSide .left .botton .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    width: 98%;
+}
+
+.position .rightSide .right {
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+
+.position .rightSide .right .top {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EFFDD4;
+    padding: 23px 41px 52px 32px;
+    border-radius: 15px;
+}
+
+.position .rightSide .right .top .name {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.position .rightSide .right .top .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.position .rightSide .right .botton {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EFFDD4;
+    padding: 23px 41px 52px 32px;
+    border-radius: 15px;
+    margin-top: 16px;
+}
+
+.position .rightSide .right .botton .name {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.position .rightSide .right .botton .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    width: 98%;
+}
+
+.morediv {
+    padding: 10% 4%;
+    background-color: #FAFAF9;
+}
+
+.morediv .top .divone {
+    margin-bottom: 87px;
+}
+
+.morediv .top .divone .name {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.morediv .top .more {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.morediv .top .more .two {
+    width: 25%;
+}
+
+.morediv .top .more .two .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 8px;
+    width: 70%;
+    color: #423F35;
+}
+
+.morediv .top .more .two .link {
+    color: #00780C;
+}
+
+.morediv .botton {
+    margin-top: 115px;
+}
+
+
+.morediv .botton .divone {
+    margin-bottom: 87px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.morediv .botton .divone .learn {
+    color: #00780C;
+}
+
+
+.morediv .botton .divone .name {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.morediv .botton .more {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.morediv .botton .more .two {
+    width: 25%;
+    margin-top: 66px;
+}
+
+.morediv .botton .more .two .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 8px;
+    width: 70%;
+    color: #423F35;
+}
+
+.morediv .botton .more .two .link {
+    color: #00780C;
+}
+
+.blog {
+    padding: 10% 2%;
+}
+
+.blog .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog .top .name {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+}
+
+.blog .top .link .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #00780C;
+}
+
+.blog .botton {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 87px;
+}
+
+.blog .botton .mindiv {
+    width: 25%;
+}
+
+.blog .botton .mindiv .button {
+    background-color: #EFFDD4;
+    padding: 1px 5px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    color: #0B4F00;
+}
+
+.blog .botton .mindiv .button .text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.blog .botton .mindiv .text1 {
+    width: 70%;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.blog .botton .mindiv .link .text {
+    margin-top: 16px;
+    color: #00780C;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F3EE;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 1136px 904px;
+}
+
+.start .center {
+    background-color: white;
+    border-radius: 24px;
+    padding: 57px 64px;
+}
+
+.start .center .name {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+}
+
+.start .center .text1 {
+    width: 85%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 32px 0 50px;
+}
+
+.start .center .cursors {
+    display: flex;
+    align-items: center;
+    column-gap: 28px;
+}
+
+.start .center .cursors .button {
+    background-color: #000000;
+    border-radius: 100px;
+    padding: 13px 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.start .center .cursors .button .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.start .center .cursors .link {
+    color: #505038;
+}
+
+.start .center .cursors .link .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
