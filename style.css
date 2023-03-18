@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     padding: 36px 46px;
 }
 
@@ -23,6 +24,13 @@
 .header .list .listItem .lt {
     color: black;
 }
+
+.header .list .listItem .lt .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
 
 .header .libu {
     display: flex;
@@ -108,7 +116,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 41px;
+    padding: 100px 41px 0 41px;
 }
 
 .logos .list {
@@ -326,12 +334,10 @@
     color: #00780C;
 }
 
-.trans .leftSide .name {
-    width: 60%;
+.trans .leftSide .imp .name {
     font-weight: 400;
     font-size: 40px;
     line-height: 40px;
-    letter-spacing: 2px;
 }
 
 .trans .leftSide .divs .text1 {
@@ -420,7 +426,6 @@
 .position {
     display: flex;
     padding: 12% 4%;
-
 }
 
 .position .leftSide {
@@ -728,9 +733,10 @@
     justify-content: center;
     align-items: center;
     background-color: #F5F3EE;
-    height: 50vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: 1136px 904px;
+    padding: 80px 56px;
 }
 
 .start .center {
@@ -781,4 +787,90 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
+}
+
+.footer {
+    padding: 28px 40px;
+}
+
+.footer .top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .top .long {
+    display: flex;
+    column-gap: 29px;
+    width: 100%;
+    color: #423F35;
+}
+
+.footer .top .long .list .listItem .text1 {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.footer .top .long .list .listItem .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.footer .top .site {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    column-gap: 12px;
+}
+
+.footer .top .site .siteItem {
+    width: 100%;
+}
+
+.footer .top .site .siteItem .input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+}
+
+.footer .top .site .siteItem .button {
+    width: 100%;
+    padding: 7px 16px;
+    border: none;
+    border-radius: 100px;
+    background-color: #00780C;
+    color: white;
+    cursor: pointer;
+}
+
+.footer .top .site .siteItem .button .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.botton {
+    margin-top: 89px;
+}
+
+.botton .list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botton .list .listItem .Item .Itemlist .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 8px;
+    color: #423F35;
+}
+
+.botton .list .listItem .Item .Itemlist .text1 {
+    margin-top: 36px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #423F35;
 }

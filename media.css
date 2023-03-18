@@ -1,0 +1,646 @@
+@media(max-width: 600px) {
+    .header {
+        width: 100%;
+        padding: 5px 20px;
+        column-gap: 10px;
+    }
+
+    .header .lg .logo {
+        width: 40px;
+    }
+
+    .header .list {
+        column-gap: 5px;
+    }
+
+    .header .list .listItem .lt .text {
+        font-size: 10px;
+    }
+
+    .header .libu {
+        column-gap: 0px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header .libu .link {
+        width: 100%;
+        margin-left: 10%;
+        font-size: 10px;
+    }
+
+    .header .libu .button {
+        padding: 5px 15px;
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 600px) {
+    .App {
+        display: block;
+    }
+
+    .App .leftSide {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .App .leftSide .name {
+        width: 100%;
+        font-size: 15px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+
+    .App .leftSide .text {
+        width: 70%;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        margin: 5px 0 15px 0;
+    }
+
+    .App .leftSide .bunk {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .App .leftSide .bunk .link {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .App .leftSide .bunk .button {
+        font-size: 10px;
+    }
+
+    .App .rightSide {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media(max-width: 600px) {
+    .logos {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logos .list {
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .logos .list .listItem .logo {
+        width: 70px;
+        margin-top: 10px;
+    }
+
+    .logos .image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logos .image .logo1 {
+        width: 80px;
+    }
+}
+
+@media(max-width: 600px) {
+    .Az {
+        padding: 55px 25px;
+    }
+
+    .Az .top .link {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .Az .top .name {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        width: 50%;
+        margin-bottom: 57px;
+    }
+
+    .Az .lr {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+    }
+
+    .Az .lr .leftSide {
+        width: 100%;
+    }
+
+    .Az .lr .leftSide .text {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        letter-spacing: 0.18px;
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .Az .lr .rightSide {
+        width: 100%;
+    }
+
+    .Az .lr .rightSide .text {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        letter-spacing: 0.18px;
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .Az .lr .rightSide .text1 {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        letter-spacing: 0.18px;
+        width: 100%;
+        margin-top: 46px;
+    }
+}
+
+@media(max-width: 600px) {
+    .One {
+        display: block;
+        padding: 48px 20px;
+    }
+
+    .One .leftSide {
+        width: 100%;
+    }
+
+    .One .leftSide .link {
+        font-size: 12px;
+    }
+
+    .One .leftSide .name {
+        width: 100%;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 2px;
+    }
+
+    .One .leftSide .text1 {
+        color: #423F35;
+        width: 100%;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        margin: 21px 0 14px 0;
+    }
+
+    .One .leftSide .lp .link .text {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .One .leftSide .lk .text {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+    .One1 {
+        display: block;
+        padding: 48px 20px;
+    }
+
+    .One1 .leftSide {
+        width: 100%;
+    }
+
+    .One1 .leftSide .link {
+        font-size: 12px;
+    }
+
+    .One1 .leftSide .name {
+        width: 100%;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 2px;
+    }
+
+    .One1 .leftSide .text1 {
+        color: #423F35;
+        width: 100%;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        margin: 21px 0 14px 0;
+    }
+
+    .One1 .leftSide .lp .link .text {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .One1 .leftSide .lk .text {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 600px) {
+    .trans {
+        display: block;
+        padding: 40px 20px;
+    }
+
+    .trans .leftSide {
+        width: 100%;
+    }
+
+    .trans .leftSide .imp .name {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .trans .leftSide .imp .link .text {
+        font-size: 13px;
+        line-height: 14px;
+    }
+
+    .trans .leftSide .divs .text1 {
+        width: 100%;
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .trans .leftSide .divs .list .listItem .text {
+        font-size: 10px;
+    }
+
+    .trans .leftSide .pl .text {
+        padding: 5px 10px;
+        font-size: 13px;
+        width: 20%;
+    }
+
+    .trans .rightSide {
+        width: 100%;
+    }
+
+    .trans .rightSide .logo {
+        width: 70%;
+    }
+}
+
+@media(max-width: 600px) {
+    .black .l .link .text {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .black .l .name {
+        width: 100%;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .black .text1 {
+        width: 100%;
+        font-size: 10px;
+        line-height: 14px;
+        margin: 21px 0 18px 0;
+    }
+
+    .black .list .listItem .text {
+        font-size: 10px;
+    }
+
+    .black .button {
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 600px) {
+    .position {
+        display: block;
+    }
+
+    .position .leftSide {
+        width: 100%;
+    }
+
+    .position .leftSide .minediv .link .tex {
+        width: 100%;
+    }
+
+    .position .leftSide .minediv .name {
+        width: 100%;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .position .leftSide .text {
+        width: 100%;
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .position .leftSide .button {
+        padding: 5px 10px;
+    }
+
+    .position .leftSide .button .text1 {
+        font-size: 10px;
+    }
+
+    .position .rightSide {
+        margin-top: 50px;
+        margin-bottom: 300px;
+        width: 100%;
+    }
+
+    .position .rightSide .left .top {
+        width: 80%;
+        padding: 11px 20px 26px 16px;
+    }
+
+    .position .rightSide .left .top .name {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .position .rightSide .left .top .text {
+        font-size: 10px;
+    }
+
+    .position .rightSide .left .botton {
+        width: 80%;
+        padding: 11px 20px 26px 16px;
+    }
+
+    .position .rightSide .left .botton .name {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .position .rightSide .left .botton .text {
+        font-size: 10px;
+    }
+
+    .position .rightSide .right .top {
+        width: 70%;
+        padding: 11px 20px 26px 16px;
+    }
+
+    .position .rightSide .right .top .name {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .position .rightSide .right .top .text {
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .position .rightSide .right .botton {
+        width: 70%;
+        padding: 11px 20px 26px 16px;
+    }
+
+    .position .rightSide .right .botton .name {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .position .rightSide .right .botton .text {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 600px) {
+    .morediv .top .divone .name {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .morediv .top .more {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .morediv .top .more .two {
+        width: 100%;
+    }
+
+    .morediv .top .more .two .text {
+        font-size: 10px;
+    }
+
+    .morediv .botton .divone {
+        margin-bottom: 87px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .morediv .botton .divone .name {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .morediv .botton .more {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .morediv .botton .more .two {
+        width: 100%;
+    }
+
+    .morediv .botton .more .two .text {
+        font-size: 10px;
+    }
+
+    .morediv .botton .divone .learn {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 600px) {
+    .blog {
+        padding: 10% 2%;
+    }
+
+    .blog .top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .blog .top .name {
+        font-size: 15px;
+        line-height: 14px;
+    }
+
+    .blog .top .link .text {
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .blog .botton {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .blog .botton .mindiv {
+        width: 100%;
+    }
+
+    .blog .botton .mindiv .button {
+        padding: 1px 5px;
+        font-size: 10px;
+    }
+
+    .blog .botton .mindiv .button .text {
+        font-size: 10px;
+    }
+
+    .blog .botton .mindiv .text1 {
+        font-size: 10px;
+    }
+
+    .blog .botton .mindiv .link .text {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 600px) {
+    .start {
+        padding: 20px 28px;
+    }
+
+    .start .center {
+        padding: 26px 32px;
+    }
+
+    .start .center .name {
+        font-size: 13px;
+        line-height: 14px;
+    }
+
+    .start .center .text1 {
+        width: 100%;
+        font-size: 13px;
+        line-height: 14px;
+    }
+
+    .start .center .cursors {
+        display: flex;
+        align-items: center;
+    }
+
+    .start .center .cursors .button {
+        padding: 7px 8px;
+        font-size: 10px;
+    }
+
+    .start .center .cursors .button .text {
+        font-size: 10px;
+    }
+
+    .start .center .cursors .link {
+        font-size: 10px;
+    }
+
+    .start .center .cursors .link .text {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 600px) {
+    .footer {
+        padding: 14px 20px;
+    }
+
+    .footer .top {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer .top .long {
+        width: 50%;
+
+    }
+
+    .footer .top .long .list .listItem .text1 {
+        font-size: 13px;
+        line-height: 14px;
+        width: 100%;
+    }
+
+    .footer .top .long .list .listItem .text {
+        font-size: 10px;
+        width: 50%;
+    }
+
+    .footer .top .site .siteItem {
+        width: 50%;
+    }
+
+    .footer .top .site .siteItem .input {
+        padding: 5px 5px;
+    }
+
+    .footer .top .site .siteItem .button {
+        width: 100%;
+        padding: 3px 8px;
+    }
+
+    .footer .top .site .siteItem .button .text {
+        font-size: 10px;
+    }
+
+    .botton {
+        margin-top: 89px;
+    }
+
+    .botton .list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .botton .list .listItem .Item .Itemlist .text {
+        font-size: 10px;
+    }
+
+    .botton .list .listItem .Item .Itemlist .text1 {
+        font-size: 10px;
+    }
+
+    .footer .top .site .siteItem .input {
+        padding: 10px 10px;
+        width: 200%;
+        border-radius: 5px;
+        border: 1px solid gainsboro;
+        column-gap: 30px;
+    }
+
+    .footer .top .site {
+        display: flex;
+    }
+
+    .footer .top .site .siteItem .button {
+        width: 70px;
+        padding: 7px 16px;
+    }
+}
